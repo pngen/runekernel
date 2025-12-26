@@ -161,8 +161,4 @@ impl StateMachine for MyStateMachine {
 
 ## License
 
-MIT
-
-
-
-
+MIT License
