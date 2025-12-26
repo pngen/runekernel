@@ -1,4 +1,3 @@
-```markdown
 # RuneKernel
 
 A deterministic job runtime with declarative state-machine definitions, futures-aware concurrency, and pluggable storage.
@@ -14,7 +13,7 @@ RuneKernel is a low-level, highly technical runtime for managing concurrent jobs
 - **Execution Graph Visualizer**: WebAssembly-based UI for monitoring workflows
 
 ## Architecture
-
+```markdown
 ┌─────────────┐    ┌──────────────┐    ┌──────────────┐
 │   Runtime   │────│State Machine │────│   Storage    │
 └─────────────┘    └──────────────┘    └──────────────┘
@@ -24,7 +23,7 @@ RuneKernel is a low-level, highly technical runtime for managing concurrent jobs
 │   Job API   │    │ Transition   │    │  Storage     │
 │             │    │ Validation   │    │ Adapters     │
 └─────────────┘    └──────────────┘    └──────────────┘
-
+```
 ## Core Components
 
 ### Job Management
@@ -163,6 +162,7 @@ impl StateMachine for MyStateMachine {
 ## License
 
 MIT
+
 
 
 
