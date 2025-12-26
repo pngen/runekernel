@@ -162,3 +162,7 @@ impl StateMachine for MyStateMachine {
 ## License
 
 MIT License
+
+## Author
+
+Paul Ngen
