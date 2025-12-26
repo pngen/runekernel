@@ -1,4 +1,3 @@
-[FILE: runekernel/README.md]
 ```markdown
 # RuneKernel
 
@@ -166,3 +165,4 @@ impl StateMachine for MyStateMachine {
 ## License
 
 MIT
+
