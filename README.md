@@ -15,7 +15,6 @@ RuneKernel is a low-level, highly technical runtime for managing concurrent jobs
 
 ## Architecture
 
-```
 ┌─────────────┐    ┌──────────────┐    ┌──────────────┐
 │   Runtime   │────│ State Machine│────│   Storage    │
 └─────────────┘    └──────────────┘    └──────────────┘
@@ -25,7 +24,6 @@ RuneKernel is a low-level, highly technical runtime for managing concurrent jobs
 │   Job API   │    │ Transition   │    │  Storage     │
 │             │    │ Validation   │    │ Adapters     │
 └─────────────┘    └──────────────┘    └──────────────┘
-```
 
 ## Core Components
 
@@ -165,4 +163,5 @@ impl StateMachine for MyStateMachine {
 ## License
 
 MIT
+
 
